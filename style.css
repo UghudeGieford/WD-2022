@@ -1,0 +1,110 @@
+#top-containers{
+    background-color: darksalmon;
+}
+#bottom-container{
+    background-color: darkslategray;
+}
+div.error{
+    color: rgb(0, 0, 0);
+}
+
+a [href=] {
+    font-size: 25px;
+    text-decoration: fuchsia;
+    text-transform: uppercase;
+}
+
+h1:hover{
+    color: indianred;
+    background-color: rgb(203, 159, 235);
+}
+
+p::selection{
+    background-color:rgb(92, 88, 88) ;
+    color: lawngreen;
+}
+
+strong::selection{
+    background-color:rgb(92, 88, 88) ;
+    color: lawngreen;
+}
+
+i:hover{
+    background-color:rgb(0, 250, 62) ;
+    color: rgb(3, 3, 2);
+}
+
+.img {
+    display: block;
+    background-color:rgb(203, 159, 235);
+    padding: 10px;
+    border: 8px solid rgb(80, 15, 80);
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    font-family: "Give You Glory", cursive;
+    font-size: 20px;
+    text-align: inherit;
+    color: rgb(67, 30, 102);
+}
+h2 {
+    text-align: center;
+}
+
+
+p  {
+    margin: 5px;
+    padding: 5px;
+    font-family : 'Times New Roman', Times, serif ;
+    font-size: 17px;
+}
+
+
+div.cv {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 25px;
+    background-color:rgb(160, 46, 141);
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+
+div.cv2 {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 25px;
+    background-color:rgb(212, 161, 204);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 900px) {
+    div {
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width : 400px) {
+    img {
+        display:block ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
